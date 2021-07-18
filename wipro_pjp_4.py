@@ -1,7 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[4]:
+# CONCATENATION OF STRINGS
 
 
 FNAME = str(input('Enter -->'))
@@ -9,7 +7,7 @@ LNAME = str(input('Enter -->'))
 print(FNAME + LNAME)
 
 
-# In[5]:
+# SUM WITH USER INPUT
 
 
 num1 = int(input('Enter -->'))
@@ -18,7 +16,7 @@ sum = num1 + num2
 print(sum)
 
 
-# In[7]:
+# USER INPUT DIFFERENT TYPES OF DATA
 
 
 a = str(input('Enter -->'))
