@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# PRINT HELLO WORLD
 
 
 print("Hello World")
 
 
-# In[3]:
+# FIND AREA OF THE TRIANGLE
 
 
 b = 10
@@ -16,8 +16,7 @@ area = 1/2 * b * h
 print(area)
 
 
-# In[5]:
-
+# PRINT VARIOUS DATATYPES
 
 a = 5
 print("Type of a: ", type(a))
@@ -32,8 +31,7 @@ d = " wipro"
 print("\nType of d: ", type(d))
 
 
-# In[6]:
-
+# OPERATORS
 
 
 def add(a, b):
@@ -58,7 +56,7 @@ print(mul(10, 20))
 print(div(10, 20))
 
 
-# In[10]:
+# SWAP TWO NUMBERS
 
 
 x = 5
@@ -68,14 +66,14 @@ x , y = y , x
 print("After -->",x , y)
 
 
-# In[11]:
+# FIND THE SQUARE ROOT
 
 
 import math 
 print(math.sqrt(4)) 
 
 
-# In[13]:
+# DIVISIBILITY BY 5
 
 
 a = 10
@@ -85,7 +83,7 @@ else:
     print("Not Divisible by 5")
 
 
-# In[15]:
+# CONVERT TEMPERATURE TO CELSIUS
 
 
 celsius = float(input('Enter temperature in Celsius: '))  
@@ -93,8 +91,7 @@ fahrenheit = (celsius * 1.8) + 32
 print("C-->",celsius,"f-->",fahrenheit) 
 
 
-# In[4]:
-
+# PRINT NUMBERS NAMES AND MONTHS
 
 lists =['January', 'February', 'March', 'April', 'May', 'June', 'July',  'August', 'September', 
         'October', 'November', 'December']
@@ -106,10 +103,8 @@ for x in range(0,len(lists)):
     
 
 
-# In[11]:
-
-
-name = ['varsha', 'abu', 'lakshana','ramesh']
+# PRINT NAME AND NUMBER
+name = ['varsha', 'Alya', 'Dakshana']
 print("Length of list -->",len(name))
 for i in name:
     print(i,end=" | ")
