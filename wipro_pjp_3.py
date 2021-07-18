@@ -1,17 +1,14 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
 
 
+#SIMPLE IF-ELSE PROGRAM
 a = 23
-if a >= 25:
+if a >= 18:
     print("Enjoy Marriage Life")
 else:
     print("Enjoy Bachelor Life")
 
 
-# In[8]:
+# FIND LEAP YEAR
 
 
 a = 2001
@@ -21,7 +18,7 @@ else:
     print("Not Leap Year:",a)
 
 
-# In[12]:
+# PRINT SUM, IF SAME VARIABLES PRINT 0
 
 
 a = 10
@@ -35,8 +32,7 @@ else:
     print(sum)
 
 
-# In[14]:
-
+# FIND GCD AND LCM
 
 def gcd(a,b):
     while b > 0:
@@ -49,7 +45,7 @@ print(gcd(10,20))
 print(lcm(10,20))
 
 
-# In[19]:
+# DETECT TYPE OF NUMBES
 
 
 a = 10
@@ -60,15 +56,10 @@ elif a < 0:
 elif a == 0:
         print("Zero")
         
-start = 10
-end = 25
-for i in range(start, end, 3):
-    print(i, end = " ")
 
 
-# In[1]:
 
-
+# PRINT 10 FIBONACCI NUMBER
 n = 10
 a = 0
 b = 1
@@ -82,7 +73,7 @@ while count < n:
     sum = a + b
 
 
-# In[2]:
+# PRINT PRIME NUMBER BETWEEN CERTAIN RANGES
 
 
 start = 25
@@ -96,7 +87,7 @@ for i in range(start, end+1):
             print(i, end = " ")
 
 
-# In[3]:
+# REPEAT NUMBER TILL THE GIVEN NUMBER
 
 
 n = 19
@@ -107,7 +98,7 @@ for i in range(0,n):
 print("\n",(str(10)+' ') * 5)
 
 
-# In[4]:
+# LOOP UNTIL USER INPUT 0
 
 
 even_count = 0
@@ -138,7 +129,7 @@ print("Odd count:", odd_count)
 print("Total positive int count:", total)
 
 
-# In[6]:
+# REVERSE OF INTEGER
 
 
 My_Number = 12345
@@ -148,10 +139,6 @@ while(My_Number > 0):
     Reverse_Number = (Reverse_Number *10) + Reminder
     My_Number = My_Number //10
 print(Reverse_Number)
-
-
-# In[ ]:
-
 
 
 
