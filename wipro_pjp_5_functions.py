@@ -1,7 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[4]:
+# MATH FUNCTIONS
 
 
 import math
@@ -14,10 +12,7 @@ print(tan(12))
 print(tan2(10,20))
 
 
-# In[24]:
-
-
-
+# FIND MAX LENGTH IN LIST
 test_list = ['January', 'February', 'March', 'April', 'May', 'June', 'July',  'August', 'September', 
         'October', 'November', 'December']
 
@@ -31,7 +26,7 @@ for ele in test_list:
 print("Maximum length string is : " + res)
 
 
-# In[20]:
+# SUM OF ODD,EVEN OF A,B
 
 
 a = "123"
@@ -47,7 +42,7 @@ Sum = sum(lst)
 print(Sum)
 
 
-# In[5]:
+# PRINT 1 - 100 USING RECURSION
 
 
 def printNos(n):
@@ -60,7 +55,7 @@ printNos(100)
  
 
 
-# In[8]:
+# FIND FACTORIAL
 
 
 def Fact(n):
@@ -71,7 +66,7 @@ def Fact(n):
 print(Fact(5))
 
 
-# In[9]:
+# ARITHMETIC FUNCTIONS USING FUNCTIONS
 
 
 def add(a, b):
@@ -96,7 +91,7 @@ print(mul(10, 20))
 print(div(10, 20))
 
 
-# In[14]:
+# POWER OF 2
 
 
 n = 10
@@ -108,7 +103,6 @@ for j in range(n):
    print(p," raised to power", j, "is", cal[j])
 
 
-# In[1]:
 
 
 def sumofDigits(number):
